@@ -1,0 +1,7 @@
+{
+    "blogs":[
+        {"id":1,"author":"mario","title":"Post One","body":"In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content"},
+        {"id":2,"author":"yoshi","title":"Post Two","body":"In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content"},
+        {"id":3,"author":"mario","title":"Post Three","body":"In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content"}
+    ]
+}
