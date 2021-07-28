@@ -43,6 +43,24 @@ code {
   color: #EE5737;
 }
 
+/* Home */
+.blog-preview:hover{
+  box-shadow: 5px 10px 18px #EE5737;
+  padding: 3px;
+}
+
+.blog-preview h2{
+  color: #EE5737;
+}
+
+.blog-preview p{
+  color: black;
+}
+
+.blog-preview a{
+  text-decoration: none;
+}
+
 /* Footer */
 .footer{
   text-align: center;
