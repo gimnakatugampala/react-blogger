@@ -42,3 +42,8 @@ code {
 .navbar a:hover{
   color: #EE5737;
 }
+
+/* Footer */
+.footer{
+  text-align: center;
+}
