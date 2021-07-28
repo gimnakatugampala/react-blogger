@@ -1,5 +1,6 @@
 import { useState } from "react"
 import { Link } from "react-router-dom"
+import BlogList from "./BlogList"
 
 
 const Home = () => {
@@ -12,17 +13,7 @@ const Home = () => {
 
     return (
         <div className="home">
-            <div className="blog-list">
-                <h2>All The Blogs!</h2>
-                {blogs.map((blog) => (
-                    <div className="blog-preview" key={blog.id}>
-                        <Link to={`/blogs/${blog.id}`}>
-                            <h2>{blog.title}</h2>
-                            <p>{blog.body}</p>
-                        </Link>
-                    </div>
-                ))}
-            </div>
+           <BlogList blogs={blogs} title="All the Blogs!" />
         </div>
     )
 }
